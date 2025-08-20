@@ -1,0 +1,55 @@
+Midwest Hiking Trails Webpage
+------------------
+A responsive web page showcasing hiking trails across Illinois, Iowa, and Wisconsin, designed to demonstrate clean layout, mobile-first responsiveness, and interactive elements using Bootstrap 5.
+
+Overview
+------------------
+This project visualizes Midwest hiking trails in a user-friendly table that includes:
+
+    Location: Park name, city, state
+
+    Description: Trail distance, difficulty, and views
+
+    Rating: Visual star ratings using Bootstrap Icons
+
+The table is mobile-friendly, stacking the description under the location for smaller screens, and includes hover effects for rows, bold trail names, and stars.
+
+Design Choices
+------------------
+    Typography: Poppins for a clean, modern look
+
+    Color Palette:
+
+        #283618 for main text
+
+        #606c38 for table hover text and navbar background
+
+        #f4a261 and #e9c46a for accents
+
+    Tables: Bootstrap striped tables with custom hover effects and shadows
+
+    Navbar: Fixed-top, responsive, collapses to a hamburger on mobile
+
+    Hero Section: Full-width image with welcome message
+
+    Contact Form: Inputs and button with subtle shadows and hover transitions
+
+Features
+------------------
+    Fully responsive layout for desktop and mobile
+
+    Fixed-top navbar for easy navigation
+
+    Interactive tables with hover highlighting
+
+    Contact form with required fields and hover effects
+
+Technologies
+------------------
+    HTML5, CSS3
+
+    Bootstrap 5
+
+    Bootstrap Icons
+
+    Google Fonts (Poppins)

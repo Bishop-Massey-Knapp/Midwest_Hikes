@@ -1,0 +1,166 @@
+/* ------------------------------
+   Global Styles
+------------------------------ */
+
+body {
+  padding-top: 70px;
+  font-family: 'Poppins', sans-serif;
+  color: #283618;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ------------------------------
+   Navbar
+------------------------------ */
+.navbar-brand {
+  font-weight: 700;
+  color: #fff;
+}
+.navbar {
+  background-color: #606c38 !important; 
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #e9c46a;
+  font-weight: 600;
+}
+
+/* ------------------------------
+   Hero Section
+------------------------------ */
+header {
+  background-color: #f8f9fa;
+}
+
+header .lead {
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+/* ------------------------------
+   Custom Table
+------------------------------ */
+.custom-table {
+  font-family: 'Poppins', sans-serif;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.custom-table th {
+  font-weight: 600;
+  color: #283618;
+  background-color: #f8f9fa;
+}
+
+.custom-table td strong {
+  font-weight: 700;
+  color: #283618;
+}
+
+/* Desktop Hover — override Bootstrap */
+.custom-table.table-striped tbody tr:hover td,
+.custom-table.table-striped tbody tr:hover td strong,
+.custom-table.table-striped tbody tr:hover td i.bi {
+  color: #606c38 !important;
+}
+
+/* ------------------------------
+   Mobile Table Stacking
+------------------------------ */
+@media (max-width: 768px) {
+  .custom-table thead {
+    display: none;
+  }
+
+  .custom-table, 
+  .custom-table tbody, 
+  .custom-table tr, 
+  .custom-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .custom-table tr {
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #ddd;
+  }
+
+  .custom-table td {
+    text-align: left;
+    padding-left: 50%;
+    position: relative;
+  }
+
+  .custom-table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 15px;
+    width: calc(50% - 30px);
+    font-weight: 600;
+    color: #283618;
+  }
+
+
+}
+
+/* ------------------------------
+   Contact Form
+------------------------------ */
+.custom-form {
+  background: #fff;
+}
+
+.custom-form .form-control {
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.custom-form .form-control:focus {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  border-color: #2a9d8f;
+}
+
+.submit-btn {
+  background: #e9c46a;
+  transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: #f4a261;
+}
+
+/* ------------------------------
+   Table & Form Shadows
+------------------------------ */
+.table-responsive.shadow-sm,
+.custom-form {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  padding: 0.5rem;
+}
+
+/* ------------------------------
+   Responsive Adjustments
+------------------------------ */
+@media (max-width: 576px) {
+  header .display-4 {
+    font-size: 2rem;
+  }
+  header .lead {
+    font-size: 1rem;
+  }
+}
